@@ -33,14 +33,15 @@ import matplotlib.pyplot as plt
 # plt.plot(x, y2, color='red', linewidth=1.0, linestyle='--')
 # plt.show()
 
+# 散列点
 # n = 1024
 # X = np.random.normal(0, 1, n)
 # Y = np.random.normal(0, 1, n)
 # T = np.arctan2(X, Y)
 # # print(T)
 # plt.scatter(np.arange(10), np.arange(10))
-# plt.xticks(())
-# plt.yticks(())
+# plt.xticks(range(0, 10)) 刻度
+# plt.yticks(range(0, 10)) 刻度
 # plt.show()
 
 import matplotlib.pyplot as plt
@@ -70,3 +71,49 @@ ax.plot_surface(X, Y, Z,
 ax.contourf(X, Y, Z, zdir='z', offest=-2, cmap='rainbow')
 ax.set_zlim(-2, 2)
 plt.show()
+
+
+'''
+函数说明：画图，三维
+'''
+def show(data, labels):
+    fig = plt.figure()
+    ax = Axes3D(fig)
+
+    colors = ['black', 'red', 'green', 'yellow']
+    key = 0;
+    for item in data:
+        ax.scatter(item[0], item[1], item[2], c=colors[labels[key]])
+        key += 1
+    # X轴坐标
+    ax.set_xlabel('X', fontdict={'size': 12, 'color': 'red'})
+    # Y轴坐标
+    ax.set_ylabel('Y', fontdict={'size': 12, 'color': 'green'})
+    # Z轴坐标
+    ax.set_zlabel('Z', fontdict={'size': 12, 'color': 'yellow'})
+    plt.show()
+
+'''
+函数说明：画图，二维，多张图
+'''
+def show_two(data, labels):
+    colors = ['black', 'red', 'green', 'yellow']
+
+    # 2x2
+    fig, axs = plt.subplots(nrows=2, ncols=2, sharex=False, sharey=False, figsize=(13, 8))
+
+    key = 0
+    for item in data:
+        axs[0][0].scatter(x=item[0], y=labels[key], color=colors[labels[key]])
+        axs[0][1].scatter(x=item[1], y=labels[key], color=colors[labels[key]])
+        axs[1][0].scatter(x=item[2], y=labels[key], color=colors[labels[key]])
+        key += 1;
+
+    # 设置标题,x轴label,y轴label
+    axs0_title_text = axs[0][0].set_title(u'每年飞行常客里程数与分类')
+    axs0_xlabel_text = axs[0][0].set_xlabel(u'每年获得的飞行常客里程数')
+    axs0_ylabel_text = axs[0][0].set_ylabel(u'玩视频游戏所消耗时间占')
+    plt.setp(axs0_title_text, size=1, weight='bold', color='red')
+    plt.setp(axs0_xlabel_text, size=1, weight='bold', color='black')
+    plt.setp(axs0_ylabel_text, size=1, weight='bold', color='black')
+    plt.show()
