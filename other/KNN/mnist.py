@@ -80,6 +80,18 @@ def print_num(data):
             str = ''
             key = 0
 
+'''
+函数说明：将图像像素二值化处理
+'''
+def pic_binary(data):
+    for row in range(data.shape[0]):
+        for key in range(data.shape[1]):
+            if data[row][key] >= 128:
+                data[row][key] = 1
+            else:
+                data[row][key] = 0
+    return data
+
 if __name__ == '__main__':
 
     train_image_path = '/www/ML/other/KNN/mnist/train-images-idx3-ubyte'
@@ -100,7 +112,13 @@ if __name__ == '__main__':
     # print_num(image_train[0])
     # print(label_train)
 
-    knn = kNN(n_neighbors = 3, algorithm = 'auto')
+    # 将图像二值化处理,大于等于128设置为1 小于128为0 误差率会上升，通用性更强
+    image_test = pic_binary(image_test)
+    image_train = pic_binary(image_train)
+
+    # print_num(image_train[0])
+
+    knn = kNN(n_neighbors = 5, algorithm = 'auto')
     knn.fit(image_train, label_train)
 
     res = knn.predict(image_test[:100])

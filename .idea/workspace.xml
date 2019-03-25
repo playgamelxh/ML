@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4695022a-7ee4-47ae-b980-cd0be556a270" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/other/KNN/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/dating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/datingTestSet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/t10k-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/t10k-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/train-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/train-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/mnist/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/KNN/skl_knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/blur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/create_captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/cut_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/grayscale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/img/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/img/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/img/qin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/verification_code/process.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/KNN/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/KNN/mnist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/KNN/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+            <state relative-caret-position="317">
+              <caret line="96" column="72" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="72" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -55,31 +49,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/KNN/dating.py">
+        <entry file="file://$PROJECT_DIR$/other/verification_code/process.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="159" column="48" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/verification_code/grayscale.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="146" column="43" lean-forward="true" selection-start-line="143" selection-start-column="6" selection-end-line="146" selection-end-column="43" />
               <folding>
-                <element signature="e#40#58#0" expanded="true" />
+                <element signature="e#16#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/verification_code/create_captcha.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding>
+                <element signature="e#16#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/KNN/datingTestSet.txt">
+        <entry file="file://$PROJECT_DIR$/other/verification_code/cut_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-453">
-              <caret line="87" column="12" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/KNN/skl_knn.py">
+        <entry file="file://$PROJECT_DIR$/other/verification_code/blur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="337">
+              <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="161" selection-end-column="27" />
+              <folding>
+                <element signature="e#16#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +107,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>subplots</find>
+      <find>get_pixel</find>
+      <find>Z</find>
+      <find>remove_noise_method</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,6 +126,12 @@
         <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py" />
         <option value="$PROJECT_DIR$/other/KNN/skl_knn.py" />
         <option value="$PROJECT_DIR$/other/KNN/mnist.py" />
+        <option value="$PROJECT_DIR$/other/KNN/verification_code/process.txt" />
+        <option value="$PROJECT_DIR$/other/KNN/verification_code/grayscale.py" />
+        <option value="$PROJECT_DIR$/other/verification_code/cut_image.py" />
+        <option value="$PROJECT_DIR$/other/verification_code/blur.py" />
+        <option value="$PROJECT_DIR$/other/verification_code/grayscale.py" />
+        <option value="$PROJECT_DIR$/other/verification_code/create_captcha.py" />
       </list>
     </option>
   </component>
@@ -121,7 +148,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
+    <option name="x" value="12" />
     <option name="y" value="23" />
     <option name="width" value="1429" />
     <option name="height" value="794" />
@@ -166,7 +193,14 @@
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
+              <item name="verification_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="verification_code" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,9 +227,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/other" />
       <recent name="$PROJECT_DIR$/other/KNN/mnist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/other/verification_code/img" />
+      <recent name="$PROJECT_DIR$/other/KNN/verification_code/img" />
       <recent name="$PROJECT_DIR$/other/KNN/mnist" />
       <recent name="$PROJECT_DIR$/other/KNN/dataset" />
     </key>
@@ -212,20 +249,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mnist">
-    <configuration name="dating" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.create_captcha">
+    <configuration name="blur" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other/KNN" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other/verification_code" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/KNN/dating.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/verification_code/blur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,19 +271,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_captcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other/KNN" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other/verification_code" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/KNN/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/verification_code/create_captcha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,19 +292,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="line" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="grayscale" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other/verification_code" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/line.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/verification_code/grayscale.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_captcha" />
+        <item itemvalue="Python.grayscale" />
+        <item itemvalue="Python.blur" />
         <item itemvalue="Python.mnist" />
         <item itemvalue="Python.skl_knn" />
-        <item itemvalue="Python.dating" />
-        <item itemvalue="Python.index" />
-        <item itemvalue="Python.line" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +389,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="23" width="1429" height="794" extended-state="0" />
+    <frame x="12" y="23" width="1429" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29261363" />
@@ -360,7 +397,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" x="23" y="280" width="1408" height="280" id="Run" order="2" weight="0.43019944" />
+      <window_info anchor="bottom" x="23" y="280" width="1408" height="280" id="Run" order="2" weight="0.2037037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,10 +561,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/other/KNN/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+        <state relative-caret-position="317">
+          <caret line="96" column="72" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="72" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/img/code.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/img/2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/img/qin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/process.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/12te.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/captcha/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/blur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="161" selection-end-column="27" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/img/12te.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/cut_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/grayscale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="146" column="43" lean-forward="true" selection-start-line="143" selection-start-column="6" selection-end-line="146" selection-end-column="43" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/verification_code/create_captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="e#16#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
