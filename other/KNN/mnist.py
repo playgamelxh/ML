@@ -41,7 +41,7 @@ def load_mnist(train_image_path, train_label_path, test_image_path, test_label_p
     ----------
     normalize : 将图像的像素值正规化为0.0~1.0
     one_hot_label :
-        one_hot为True的情况下，标签作为one-hot数组返回
+        one_hot为True的情况下，标签作为one-hot数组返 回
         one-hot数组是指[0,0,1,0,0,0,0,0,0,0]这样的数组
     Returns
     ----------
