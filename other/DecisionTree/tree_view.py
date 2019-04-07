@@ -34,7 +34,7 @@ def getNumLeafs(myTree):
                 numLeafs += getNumLeafs(secondDict[key])
             else:
                 numLeafs +=1
-    else:   numLeafs += 1
+    else:   numLeafs = 1
     return numLeafs
 
 """
@@ -66,7 +66,7 @@ def getTreeDepth(myTree):
             else:   thisDepth = 1
             # 更新层数
             if thisDepth > maxDepth: maxDepth = thisDepth
-    else:   maxDepth += 1
+    else:   maxDepth = 1
     return maxDepth
 
 """
@@ -87,11 +87,12 @@ Modify:
     2017-07-24
 """
 def plotNode(nodeTxt, centerPt, parentPt, nodeType):
-    arrow_args = dict(arrowstyle="<-")                                            #定义箭头格式
-    font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)        #设置中文字体
-    createPlot.ax1.annotate(nodeTxt, xy=parentPt,  xycoords='axes fraction',    #绘制结点
-        xytext=centerPt, textcoords='axes fraction',
-        va="center", ha="center", bbox=nodeType, arrowprops=arrow_args, FontProperties=font)
+    # 定义箭头格式
+    arrow_args = dict(arrowstyle="<-")
+    # 设置中文字体
+    font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)
+    # 绘制结点
+    createPlot.ax1.annotate(nodeTxt, xy=parentPt,  xycoords='axes fraction', xytext=centerPt, textcoords='axes fraction', va="center", ha="center", bbox=nodeType, arrowprops=arrow_args, FontProperties=font)
 
 """
 函数说明:标注有向边属性值
@@ -109,7 +110,8 @@ Modify:
     2017-07-24
 """
 def plotMidText(cntrPt, parentPt, txtString):
-    xMid = (parentPt[0]-cntrPt[0])/2.0 + cntrPt[0]                                            #计算标注位置
+    # 计算标注位置
+    xMid = (parentPt[0]-cntrPt[0])/2.0 + cntrPt[0]
     yMid = (parentPt[1]-cntrPt[1])/2.0 + cntrPt[1]
     createPlot.ax1.text(xMid, yMid, txtString, va="center", ha="center", rotation=30)
 
@@ -161,8 +163,8 @@ def plotTree(myTree, parentPt, nodeTxt):
                 plotTree.xOff = plotTree.xOff + 1.0/plotTree.totalW
                 plotNode(secondDict[key], (plotTree.xOff, plotTree.yOff), cntrPt, leafNode)
                 plotMidText((plotTree.xOff, plotTree.yOff), cntrPt, str(key))
-        plotTree.yOff = plotTree.yOff + 1.0/plotTree.totalD
-    else:   plotTree.yOff = plotTree.yOff + 1.0/plotTree.totalD
+    #     plotTree.yOff = plotTree.yOff + 1.0/plotTree.totalD
+    # else:   plotTree.yOff = plotTree.yOff + 1.0/plotTree.totalD
 
 """
 函数说明:创建绘制面板
@@ -193,7 +195,7 @@ def createPlot(inTree):
     # x偏移
     # plotTree.xOff = -1/plotTree.totalW
     plotTree.xOff = -0.5/plotTree.totalW
-    plotTree.yOff = 1.0
+    plotTree.yOff = 1
     # 绘制决策树
-    plotTree(inTree, (0.5,1.0), '')
+    plotTree(inTree, (0.5, 1.0), '')
     plt.show()
